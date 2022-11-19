@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<!--<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>-->
+<html lang="en">
+<meta charset="utf-8"> 
+  <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Technical Documentation</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+  </head>
+  
+  <!--Side navigation bar-->
+  <body>
+   
+      
+   <div class="sidenav">
+    <nav id="navbar">
+      <header>What is HTML?</header>
+      <a href = "#About" class = "nav-link" >About</a>
+      <a href = "#HTML_Elements" class = "nav-link" >HTML Elements</a>
+      <a href = "#Structure" class = "nav-link" >Structure</a>
+      <a href = "#Paragraphs" class = "nav-link" >Paragraphs</a>
+      <a href = "#Images" class = "nav-link" >Images</a>
+      <a href = "#Lists" class = "nav-link" >Lists</a>
+      <a href = "#Navigation_Bars" class = "nav-link" >Navigation Bars</a>
+      <a href = "#Text_Area" class = "nav-link" >Text Area</a>
+      <a href = "#Placeholder_Text" class = "nav-link" >Placeholder Text</a>
+      <a href = "#Checkboxes" class = "nav-link" >Checkboxes</a>
+      <a href = "#Nesting_Elements" class = "nav-link" >Nesting Elements</a>
+    
+     </nav>
+   </div>
+          <!--Main body of info-->
+        <main id="main-doc">
+          <div class="main">
+            <section class="main-section" id="About">
+            <header>About</header><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT546q9JvHtavr8GejUxeI-VuxXDgQKAPvE-Q&usqp=CAU" alt="Picture of HTML logo.">
+            <p>HTML stands for hyper-text markup language. HTML is the framework of websites, and can be combined with CSS to add creative ideas to your websites. Javascript can also be used with HTML and CSS to add functionality and interaction on your web page. HTML has gone through numerous updates and versions. Currently HTML5 is the highest and most up to date version. In this lesson we will learn how to create a fully functioning website ready for CSS and Javascript. This is the beginning of your web developement adventure.
+              </section>
+            <section class="main-section" id="HTML_Elements">
+            <header> HTML Elements</header>
+              <p>HTML elements contain start tags and end tags, and are the building blocks of website creation. The h1 element is used for bold titles, with smaller and smaller headings as you get to h6. P is defined as the paragrpah element and is the portion of the website you are reading right now. Br stands for line break and can be thought of as if you were to hit the return key in a word document. You can use "br" to bring your code down a line or create a space. HTML defines the whole document and is needed to allow this code to function as HTML does. Body is the main body of work of an HTML page and contains all of the elements listed above, minus the HTML tag. Below you can see an example of Elements and a list of common elements. 
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIGOm8u1fD4I_LY-Rid5lQEpg_gcItzRR1rw&usqp=CAU" alt="Example of HTML elements.">
+            <ul class="elements">
+              <li>H1-H6</li>
+              <li>P</li>
+              <li>Br</li>
+              <li>HTML</li>
+              <li>Body</li>
+            </ul>
+            </section>
+          <!--<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIGOm8u1fD4I_LY-Rid5lQEpg_gcItzRR1rw&usqp=CAU" alt="Example of HTML elements.">-->
+            <section class="main-section" id="Structure">
+              <header>Structure</header>
+              <br>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVCvqk8B5P7lyYLmKYY6IM252fNeG-0mOfwQ&usqp=CAU" alt="Picture of basic website structure.">
+                     <p>The structure of a website depends entirely on what the creator has in mind. In the picture above you can see a basic layout which includes room for a header, navigation bar, article sections, ads and a footer. When done correctly all of these sections can be further updated and styled with CSS to create a more appealing layout. It is important to take into account the flow of the website, and be aware of how the users experience will be while using your website.</p>
+            </section>
+            <section class="main-section" id="Paragraphs">
+              <header>Paragraphs</header>
+                <p>The parapgraph element is used to write large sections within a website. This element can be nested within many other elements and is very useful when trying to write large amounts of text. In fact you are currently reading the text nested with a opening and closing paragraph element. P elements are easily styled with CSS to change characteristics such as the font-family, text-align, text-decoration and many more. An example of CSS styling is <code> p {text-decoration: underline;}</code>.</p>
+            </section>
+            <section class="main-section" id="Images">
+              <header>Images</header>
+              <p>Images can be added to HTML websites, which can help users understand and become more interested in content. Images can also help convey data and ensure the user experience is more enjoyable. Images can be inserted into code via the example below. It is important to use an alt description to help the user understand what is displayed in the event the picture link becomes broken.</p>
+              <img src="data:image/png;base64,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" alt="Picture of img syntax.">
+            </section>
+            <section class="main-section" id="Lists">
+              <header>Lists</header>
+              <p>There are two types of lists in HTML/CSS. The ordered lists and unordered list. The ordered list can help the developer organize items in order of importance, and is typically organized numerically. The unordered list is a bullet point list and can be used to list items in a general format where order doesn't matter. The syntax for lists can be seen in the image below. Please see the following CSS styles which can improve HTML lists. <code>ul {list-style-type: circle, square, upper-roman;}</code>
+<br>                
+<img    src="https://cdn2.hubspot.net/hubfs/145335/Ordered_List.png" alt="Picture of HTML list syntax">
+              </p>
+            </section>
+            <section class="main-section" id="Navigation_Bars">
+              <header>Navigation Bars</header>
+              <p>Navigation bars are a must for every website as it gives the user a table of contents to choose from. There are a few different types of nav bars, some are on the top, side and collapsable. Depending on the developer and customer they will choose which option works best for their purpose. My personal favorite is a collapsable nav bar, which opens up to a full page with pictures. The syntax for a basic nav bar can be seen below. It should be noted that nav bars should be styled with CSS to ensure they look professional and easy to follow. <br></br><img src="https://csharpcorner-mindcrackerinc.netdna-ssl.com/article/lets-develop-an-angular-application-5-create-navigation-bar-component-for/Images/fin-menu.png" alt="A picture of Nav bar HTML syntax"></p>
+            </section>
+            <section class="main-section" id="Text_Area">
+              <header>Text Area</header>
+              <p>Text area can be nested within forms to allow the user to leave comments and/or create a space to write down information. The most common use of this would be a comment box or a text area on a forum or blog post such as twitter.</p>
+            </section>
+            <section class="main-section" id="Placeholder_Text">
+              <header>Placeholder Text</header>
+              <p>Placeholder text can be useful when used within forms. When a user is required to input an email, name, or any other information. A placeholder text can give a user an example of the text that is needed. Placeholder text immediatey disappears once the user begins typing. Placeholder text isnt necessary to have a fully functioning website, but can allow for a better user experience and can give the appearance of a more completed website. A placeholder can be styled and changed by using CSS values. It is possible to change the text style, color and font size by using the following syntax.<br>
+            <code>input::placeholder {color: red; font-size: 1.2em; font-style: italic;}</code></p>
+            </section>
+            <section class="main-section" id="Checkboxes">
+              <header>Checkboxes</header>
+              <p>Checkboxes are used to choose an option and are typically found on forms for surveys or personal information. A checkbox can allow for multiple checks, unlike the similar radio button. A checkbox can also be styled using CSS to change the font, checkbox type and overall appearance. An example of the CSS is <code>label {font: 1rem 'Fira Sans', sans-serif;}</code> and <code>input {margin: .4rem;}</code>.</p>
+            </section>
+            <section class="main-section" id="Nesting_Elements">
+              <header>Nesting Elements</header>
+              <p>Elements can be nestled within other elements to create lists, paragraphs, images, checkboxes, text fields and many more. In fact, a website is typically nestled within in a main HTML element, which also lets the browser know it is an HTML document. This webpage has the nav bar, images, paragraphs and all other elements nestles with the body element. Please see the example below for syntax. <br>
+              <img src="https://slideplayer.com/slide/13139710/79/images/7/Nesting+rule%3A+You+must+put+elements+inside+other+elements.jpg" alt="Example of nesting syntax."></p>
+            </section>
+            
+            
+                     
+             
+                
+          
+                  
